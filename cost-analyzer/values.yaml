@@ -849,12 +849,12 @@ federatedETL:
 #  awsSpotDataRegion: us-east-1
 #  awsSpotDataBucket: spot-data-feed-s3-bucket
 #  awsSpotDataPrefix: dev
-#  athenaProjectID: "530337586277" # The AWS AccountID where the Athena CUR is. Generally your masterpayer account
-#  athenaBucketName: "s3://aws-athena-query-results-530337586277-us-east-1"
-#  athenaRegion: us-east-1
-#  athenaDatabase: athenacurcfn_athena_test1
-#  athenaTable: "athena_test1"
-#  athenaWorkgroup: "primary" # The default workgroup in AWS is 'primary'
+athenaProjectID: "201635854701" # The AWS AccountID where the Athena CUR is. Generally your masterpayer account
+athenaBucketName: "s3://aws-athena-query-results-kubecost-abid-201635854701-us-east-2"
+athenaRegion: us-east-2
+athenaDatabase: athenacurcfn_aws_cost_report_opencost
+athenaTable: "aws_cost_report_opencost"
+athenaWorkgroup: "primary" # The default workgroup in AWS is 'primary'
 #  masterPayerARN: ""
 #  projectID: "123456789"  # Also known as AccountID on AWS -- the current account/project that this instance of Kubecost is deployed on.
 #  gcpSecretName: gcp-secret # Name of a secret representing the gcp service key
